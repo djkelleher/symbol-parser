@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "symbol-parser"
-version = "1.0.0"
+version = "1.0.1"
 description = "Utility for parsing ticker symbols and converting symbol syntax to different conventions."
 authors = ["Dan Kelleher <kelleherjdan@gmail.com>"]
 include = ["*.json"]
