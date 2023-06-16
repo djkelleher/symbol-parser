@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "symbol-parser"
+version = "1.0.0"
+description = "Utility for parsing ticker symbols and converting symbol syntax to different conventions."
+authors = ["Dan Kelleher <kelleherjdan@gmail.com>"]
+include = ["*.json"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/danklabs-dev/symbol-parser"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Logging"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+requests = "^2.27.1"
+lxml = "^4.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
